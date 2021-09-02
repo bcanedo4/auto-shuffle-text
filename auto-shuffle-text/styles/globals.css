@@ -1,0 +1,79 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text__container {
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+  transform: translate(-80px);
+}
+
+.text--still {
+  display: inline-flex;
+  margin: 0;
+  vertical-align: top;
+}
+
+.text--shuffle {
+  position: absolute;
+  display: flex;
+  opacity: 0;
+}
+
+.letter {
+  transform-origin: center center 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+
+.letter.in {
+  transition: 0.38s ease;
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.color--green {
+  color: green;
+}
+
+.color--yellow {
+  color: yellow;
+}
+
+.color--blue {
+  color: blue;
+}
+
+.color--purple {
+  color: purple;
+}
+
+.color--red {
+  color: red;
+}
