@@ -1,7 +1,6 @@
 
 import React, { useEffect } from 'react'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -55,16 +54,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="text__container">
-        <p className="text--still">Starting Soon!</p>
+        <p className="text--still">Streaming Soon! Welcome</p>
         <p>
-          <span className="text--shuffle color--green">Green</span>
-          <span className="text--shuffle color--yellow">Yellow</span>
-          <span className="text--shuffle color--blue">Blue</span>
-          <span className="text--shuffle color--purple">Purple</span>
-          <span className="text--shuffle color--red">Red</span>
+          <span className="text--shuffle color--green">Gamers</span>
+          <span className="text--shuffle color--yellow">Smash_Enthusiasts</span>
+          <span className="text--shuffle color--blue">Barn_Cats</span>
+          <span className="text--shuffle color--purple">Basket_Weavers</span>
+          <span className="text--shuffle color--red">Most_Importantly,_You!</span>
         </p>
-      </div>
-      
+      </div>      
     </div>
   )
 }
+

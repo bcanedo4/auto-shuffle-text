@@ -23,6 +23,9 @@ a {
 }
 
 .text__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   font-weight: 700;
   font-size: 40px;
   color: #FFFFFF;
@@ -32,6 +35,7 @@ a {
 .text--still {
   display: inline-flex;
   margin: 0;
+  margin-top: 3.2rem;
   vertical-align: top;
 }
 
@@ -58,22 +62,30 @@ a {
   transform: rotateX(-90deg);
 }
 
+.letter--invisible {
+  color: transparent !important;
+}
+
 .color--green {
-  color: green;
+  color: rgb(80, 194, 103);
 }
 
 .color--yellow {
-  color: yellow;
+  color: rgb(204, 173, 71);
 }
 
 .color--blue {
-  color: blue;
+  color: rgb(0, 238, 255);
 }
 
 .color--purple {
-  color: purple;
+  color: rgb(216, 52, 216);
 }
 
 .color--red {
-  color: red;
+  color: rgb(255, 0, 0);
+}
+
+.white {
+  color: white;
 }
